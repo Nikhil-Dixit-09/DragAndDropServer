@@ -2,7 +2,7 @@
 const mongoose=require('mongoose');
 //connect to the database
 mongoose.set("strictQuery", false);
-mongoose.connect("mongodb://localhost/tasks");
+mongoose.connect("mongodb+srv://nikhil09dixit:nishu@cluster0.v5jzcdf.mongodb.net/?retryWrites=true&w=majority");
 //acquire the connection (to check if it is successful)
 const db=mongoose.connection;
 //error
